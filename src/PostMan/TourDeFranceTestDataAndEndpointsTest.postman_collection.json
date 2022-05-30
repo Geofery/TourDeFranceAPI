@@ -1,0 +1,739 @@
+{
+	"info": {
+		"_postman_id": "9cd58720-dfc3-433a-a018-3ff43b92f69d",
+		"name": "TourDeFranceTestDataAndEndpointsTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19515948"
+	},
+	"item": [
+		{
+			"name": "CreateTeams",
+			"item": [
+				{
+					"name": "Create team1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Israel - Premier Tech\" \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create team2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Team DSM\" \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create team3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"EF Education-EasyPost\" \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create team4",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"UAE Team Emirates\" \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create team4 Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"UAE Team Emirates\" \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Create Riders",
+			"item": [
+				{
+					"name": "Create rider1.1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Mads Schmidt\",\n    \"nationality\": \"Denmark\",\n    \"age\": 28, \n    \"mountainPoints\": 10,\n    \"sprintPoints\": 20,\n    \"timeSeconds\": 32400\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/riders/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create rider1.2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Omer Goldstein\",\n    \"nationality\": \"Israel\",\n    \"age\": 25, \n    \"mountainPoints\": 15,\n    \"sprintPoints\": 30,\n    \"timeSeconds\": 33800\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/riders/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create rider1.3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Michael Woods\",\n    \"nationality\": \"Canada\",\n    \"age\": 35, \n    \"mountainPoints\": 40,\n    \"sprintPoints\": 10,\n    \"timeSeconds\": 31000\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/riders/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create rider1.4",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Jakob Fuglsang\",\n    \"nationality\": \"Danmark\",\n    \"age\": 37, \n    \"mountainPoints\": 50,\n    \"sprintPoints\": 20,\n    \"timeSeconds\": 34200\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/riders/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create rider1.5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Chris Froome\",\n    \"nationality\": \"Great Britain\",\n    \"age\": 37, \n    \"mountainPoints\": 400,\n    \"sprintPoints\": 300,\n    \"timeSeconds\": 31400\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/riders/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create rider2.1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Cees Bol\",\n    \"nationality\": \"Netherlands\",\n    \"age\": 26, \n    \"mountainPoints\": 20,\n    \"sprintPoints\": 14,\n    \"timeSeconds\": 33400\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/riders/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create rider2.2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Nils Eekhoff\",\n    \"nationality\": \"Netherlands\",\n    \"age\": 24, \n    \"mountainPoints\": 17,\n    \"sprintPoints\": 19,\n    \"timeSeconds\": 32000\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/riders/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create rider2.3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Søren Kragh Andersen\",\n    \"nationality\": \"Danmark\",\n    \"age\": 27, \n    \"mountainPoints\": 19,\n    \"sprintPoints\": 19,\n    \"timeSeconds\": 32400\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/riders/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Rider Endpoints",
+			"item": [
+				{
+					"name": "Get all riders",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/riders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find rider by Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/riders/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get fastest rider(yellowShirt)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/riders/yellowShirt",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"yellowShirt"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get fastest rider(whiteShirt)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/riders/whiteShirt",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"whiteShirt"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get fastest rider(greenShirt)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/riders/greenShirt",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"greenShirt"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get fastest rider(dottedShirt)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/riders/dottedShirt",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"dottedShirt"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create rider by TeamId",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Ny test rytter\",\n    \"nationality\": \"Denmark\",\n    \"age\": 28, \n    \"mountainPoints\": 10,\n    \"sprintPoints\": 20,\n    \"timeSeconds\": 32400\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/riders/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit rider",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Søren Kragh Andersen\",\n    \"nationality\": \"Danmark\",\n    \"age\": 27, \n    \"mountainPoints\": 19,\n    \"sprintPoints\": 19,\n    \"timeSeconds\": 36400\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/riders/8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete rider",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Søren Kragh Andersen\",\n    \"nationality\": \"Danmark\",\n    \"age\": 27, \n    \"mountainPoints\": 19,\n    \"sprintPoints\": 19,\n    \"timeSeconds\": 36400\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/riders/9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"riders",
+								"9"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Team Endpoints",
+			"item": [
+				{
+					"name": "Get Team by Id",
+					"protocolProfileBehavior": {
+						"tlsCipherSelection": []
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/teams/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all teams",
+					"protocolProfileBehavior": {
+						"tlsCipherSelection": []
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/teams",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Teams Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"test Team Postman\" \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Teams Copy 2",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"test Team Postman redigeret\" \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Teams Copy 3",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"test Team Postman redigeret\" \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/teams/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"teams",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

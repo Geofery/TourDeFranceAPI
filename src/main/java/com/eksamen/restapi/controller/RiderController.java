@@ -46,7 +46,7 @@ public class RiderController {
     return riderService.updateRider(rider);
   }
 
-  @DeleteMapping("/riderId")
+  @DeleteMapping("/{riderId}")
   public Rider deleteRider(@PathVariable int riderId){
     return riderService.deleteRider(riderId);
   }

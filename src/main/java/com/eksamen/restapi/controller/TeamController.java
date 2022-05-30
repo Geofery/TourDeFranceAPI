@@ -41,10 +41,10 @@ public class TeamController {
     return teamService.updateTeam(team);
   }
 
+  //Virker men smider status 500 - kan ikke sende Objekt retur som JSon.
   @DeleteMapping("/{teamId}")
   public Team deleteRider(@PathVariable int teamId){
     return teamService.deleteTeam(teamId);
   }
-
 
 }
