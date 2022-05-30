@@ -41,7 +41,7 @@ public class TeamController {
     return teamService.updateTeam(team);
   }
 
-  @DeleteMapping("/teamId")
+  @DeleteMapping("/{teamId}")
   public Team deleteRider(@PathVariable int teamId){
     return teamService.deleteTeam(teamId);
   }
